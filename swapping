@@ -1,0 +1,16 @@
+# swaping
+swapping of two numbers without using temporary variable
+#include<stdio.h>
+int main()
+{
+  int a,b;
+  printf("enter the numbers need to be swapped : ");
+  scanf("%d%d",&a,&b);
+  printf("the value of a before swaping is %d \n the value of b before swaping is %d\n",a,b);
+  a=a+b;
+  b=a-b;
+  a=a-b;
+  printf("the value of a after swaping is %d \n the value of b after swaping is %d\n ",a,b);
+  return 0;
+}
+  
